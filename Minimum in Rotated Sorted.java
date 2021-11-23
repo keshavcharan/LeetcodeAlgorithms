@@ -1,3 +1,5 @@
+// Given the sorted rotated array nums of unique elements, return the minimum element of this array.
+
 class Solution {
     public int findMin(int[] nums) {
         int index = binarySearch(nums, 0, nums.length-1);

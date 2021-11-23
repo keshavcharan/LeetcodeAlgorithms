@@ -1,3 +1,6 @@
+// Given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.
+// Return true if you can finish all courses. Otherwise, return false
+
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         Map<Integer, List<Integer>> preReqMap = new HashMap<>();

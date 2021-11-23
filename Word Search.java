@@ -1,3 +1,6 @@
+// Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+// where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
 class Solution {
     public boolean exist(char[][] board, String word) {        
         int[][] dims = new int[4][2];

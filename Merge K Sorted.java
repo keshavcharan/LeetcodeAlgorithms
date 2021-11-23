@@ -1,3 +1,6 @@
+// You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
+//Merge all the linked-lists into one sorted linked-list and return it.
+
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<ListNode> q = new PriorityQueue<ListNode>((o1, o2) -> (o1.val - o2.val));
